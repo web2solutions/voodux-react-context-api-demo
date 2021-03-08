@@ -78,7 +78,7 @@ export default function Customers () {
       setCustomers([newDoc, ...customers])
       console.log('customers', customers)
     }
-  }, [newDoc]) // run one time only
+  }, [newDoc]) 
 
   // watch for edited docs
   useEffect(() => {
@@ -94,7 +94,7 @@ export default function Customers () {
       setCustomers([...newData])
       console.log('customers', customers)
     }
-  }, [editedDoc]) // run one time only
+  }, [editedDoc])
 
   // watch for deleted docs
   useEffect(() => {
@@ -109,7 +109,7 @@ export default function Customers () {
       }
       setCustomers(allCustomers)
     }
-  }, [deletedDoc]) // run one time only
+  }, [deletedDoc]) 
 
   useEffect(() => {
     async function findCustomers() {
