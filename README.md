@@ -2,7 +2,7 @@
 
 
 
-#   <img src="https://avatars3.githubusercontent.com/u/14809007?s=280&v=4" width="50" /> voodux - React Demo - Context API
+# voodux - React Demo - Context API
 
 React application (Functional components) demo leveraging  the Context API and  [voodux](https://github.com/web2solutions/voodux) as it underlying architecture to handle it data.
 
